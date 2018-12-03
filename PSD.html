@@ -207,7 +207,7 @@ $('.upload_files').on( 'click', function( event ){
   data.append( 'my_file_upload', 1 );
 
   $.ajax({
-    url         : 'pages/submit.php',
+    url         : './submit.php',
     type        : 'POST',
     data        : data,
     cache       : false,
